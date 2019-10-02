@@ -14,13 +14,13 @@ Similarly, the "L_funds_returns.py" script joins the return figures in "L_fundre
 
 The resultant files with the calculations are titled "gcf_fund_monthly_returns.csv", "si_funds_monthly_returns.csv", "gcf_funds_total_returns.csv", "si_funds_total_returns.csv", "l_funds_monthly_returns.csv", "l_funds_total_returns.csv", "l2050_fund_monthly_returns", and "l2050_total_returns.csv". 
 
-![G, F, C Fund Returns](https://github.com/TSPstrategies/TSPstats/tree/master/TSP_Fund_Returns/gcffundcomp.png)
+![G, F, C Fund Returns](https://github.com/TSPstrategies/TSPstats/blob/master/TSP_Fund_Returns/gcffundcomp.png)
 
-![S, I Fund Returns](https://github.com/TSPstrategies/TSPstats/tree/master/TSP_Fund_Returns/sifundcomp.png)
+![S, I Fund Returns](https://github.com/TSPstrategies/TSPstats/blob/master/TSP_Fund_Returns/sifundcomp.png)
 
-![L Funds Returns](https://github.com/TSPstrategies/TSPstats/tree/master/TSP_Fund_Returns/lfundtotalreturns.png)
+![L Funds Returns](https://github.com/TSPstrategies/TSPstats/blob/master/TSP_Fund_Returns/lfundtotalreturns.png)
 
-![L 2050 Fund Returns](https://github.com/TSPstrategies/TSPstats/tree/master/TSP_Fund_Returns/l2050totalreturns.png)
+![L 2050 Fund Returns](https://github.com/TSPstrategies/TSPstats/blob/master/TSP_Fund_Returns/l2050totalreturns.png)
 
 
 See the python files for further explanations about calculations. 
