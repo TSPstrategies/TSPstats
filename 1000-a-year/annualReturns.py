@@ -5,6 +5,7 @@ file = "annual_returns.csv"
 yearly = pd.read_csv(file)
 
 yearly_pct = yearly.loc[:,'return']
+year = yearly.loc[:,'year']
 
 def yearly_investments(initial_investment, increase, years):
     rolling_investments = []
@@ -31,7 +32,10 @@ def yearly_returns(yearly_amount, increase, years):
     inv = yearly_investments(yearly_amount, increase, years)
     rolling_total = []
     for r in yearly_pct:
-        total = (total + inv[count]) * r
+        total = round((total + inv[count]) * r, 2)
         rolling_total.append(total)
+        print("The return as of December", year[count], " is $", total)
         count += 1
     return rolling_total
+
+yearly_returns(1000, 0, 40)
