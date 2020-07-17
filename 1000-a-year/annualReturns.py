@@ -38,4 +38,8 @@ def yearly_returns(yearly_amount, increase, years):
         count += 1
     return rolling_total
 
-yearly_returns(1000, 0, 40)
+def main():
+    yearly_returns(1000, 0, 40)
+
+if __name__ =="__main__":
+    main()
